@@ -1,0 +1,20 @@
+terminal 1
+
+
+student@T32:~$ javac Server.java
+student@T32:~$ java Server
+waiting for client.........
+client connected 
+client:>hai
+hello
+
+Terminal 2
+
+student@T32:~$ javac Client.java
+student@T32:~$ java Client
+Client connected to the server
+to Start the chat, type message and press Enter key
+hai
+server:>hello
+
+
